@@ -5,7 +5,36 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ModernDesign"
         mc:Ignorable="d"
+       Height="600" Width="920"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        Background="Transparent"
+        AllowsTransparency="True">
+    <Border Background="#272537"
+            CornerRadius="20">
         <Grid>
-        
-    </Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="75"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+        <TextBlock Text="TestMark" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="20, 0, 0, 0" FontSize="22" Foreground="White"/>
+
+
+            <StackPanel Grid.Row="1">
+
+                <RadioButton Content="Home" Height="50" FontSize="14" Foreground="White" IsChecked="True"
+                             Style="{StaticResource MenuButtonTheme}"/>
+
+            </StackPanel>
+            
+        </Grid>
+
+
+    </Border>
 </Window>
