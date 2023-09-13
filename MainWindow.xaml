@@ -31,6 +31,12 @@
                 <RadioButton Content="Home" Height="50" FontSize="14" Foreground="White" IsChecked="True"
                              Style="{StaticResource MenuButtonTheme}"/>
 
+                <RadioButton Content="Discovery" Height="50" FontSize="14" Foreground="White" IsChecked="False"
+                             Style="{StaticResource MenuButtonTheme}"/>
+
+                <RadioButton Content="Feature" Height="50" FontSize="14" Foreground="White" IsChecked="False"
+                             Style="{StaticResource MenuButtonTheme}"/>
+
             </StackPanel>
             
         </Grid>
