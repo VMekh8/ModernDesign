@@ -8,11 +8,10 @@
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
 
-        <TextBox Text="Discovery" Foreground="White" FontSize="22" VerticalAlignment="Center" HorizontalAlignment="Left" Background="Transparent" Margin="10,10,0,408"></TextBox>
+        <TextBlock Text="Discovery" Foreground="White" FontSize="22" VerticalAlignment="Center" HorizontalAlignment="Left" Background="Transparent" Margin="38,0,0,420"></TextBlock>
 
         <StackPanel Margin="0, 50, 0, 0">
-
-            <Border Height="170" Width="300" CornerRadius="10" Margin="0,50,300,0">
+            <Border Height="170" Width="300" CornerRadius="10" Margin="25,15,475,0">
                 <Border.Background>
                     <LinearGradientBrush EndPoint="1,0">
                         <GradientStop Color="#FF0E155F" Offset="0"/>
@@ -33,14 +32,20 @@
                         </Button>
                     </Grid>
                 </Grid>
-                
+
+
             </Border>
+            <TextBlock Text="You`re also have to see" Foreground="White" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Left" Background="Transparent" Margin="25,0,0,0" Padding="5" Height="43" Width="235"/>
+            <Grid Height="163">
 
+                <Border BorderThickness="2" Background="#FF82CCEE" Height="150" Width="200" CornerRadius="20" Margin="310,3,290,10" />
+                <Border BorderThickness="2" Background="#FFD5EE82" Height="150" Width="200" CornerRadius="20" Margin="573,3,27,10" />
+                <Border BorderThickness="2" Background="Violet" Height="150" Width="200" CornerRadius="20" Margin="29,3,571,10" />
 
-
+            </Grid>
 
         </StackPanel>
-        
+
 
     </Grid>
 </UserControl>

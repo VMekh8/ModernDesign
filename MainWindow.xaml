@@ -6,7 +6,7 @@
         xmlns:viewModel="clr-namespace:ModernDesign.MVVM.ViewModel"
         xmlns:local="clr-namespace:ModernDesign"
         mc:Ignorable="d"
-       Height="600" Width="920"
+       Height="600" Width="1020"
         WindowStyle="None"
         ResizeMode="NoResize"
         Background="Transparent"
